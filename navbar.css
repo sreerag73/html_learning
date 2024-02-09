@@ -1,0 +1,96 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+}
+.header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+background: transparent;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+.navbar a::before {
+ content: "";
+ position: absolute;
+ top: 100%;
+ left: 0;
+ width: 0;
+ height: 4%;
+ background: yellow;
+transition: .3s;
+
+}
+
+.navbar a:hover::before{
+ width: 100%;
+
+}
+.images{
+    background-image: url(/image/hills-2836301_1280.jpeg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width:500px;
+   background-color: aliceblue;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    z-index: -1;
+    text-align: center;
+  
+}
+.text{
+    height: 300px;
+    width: 300px;
+  background: transparent;
+  color: white;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 0;
+    word-spacing: 15px;
+    
+}
+.button{
+           
+            transform: translateX(-50%);
+            width: 120px;
+            height: 34px;
+            border: none;
+            outline: none;
+            background: black;
+            cursor: pointer;
+            font-size: 16px;
+            border-left: solid white  2px;
+            border-bottom: solid white 2px;
+            border-top: solid white 2px;
+            border-right: solid white 2px ;
+            color: white;
+            position: absolute;
+            top: 500px;
+            left: 350px;
+}

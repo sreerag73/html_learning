@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+       
+        body{
+            margin-top: 120px;
+            background: #eee;
+            display: flex;
+            font-family: sans-serif;
+            background:white;
+        }
+        .container{
+            margin: auto;
+            width: 350px;
+            max-width: 90%;
+        
+
+        }
+        .container form{
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            background: gray;
+            border-radius: 4px;
+            box-shadow: 0 8px 16px rgba(0, 0,0, .3);
+            text-align: center;
+        }
+        .container form div i {
+            /* margin-right: 10px; */
+            font-size: 24px; 
+            width: 40px; /* Adjust the width as needed */
+            height: 40px; /* Adjust the height as needed */
+            /* display: flex; */
+            align-items: center;
+            justify-content: center;
+            background: blue;
+            color: white;
+            /* border-radius: 50%; */
+        }
+       
+       
+       
+    </style>
+</head>
+<body>
+   <div class="container">
+    <form action="">
+        <h1>Registration</h1>
+        <hr>
+        <input type="radio" required name="personal">
+        <label for="">personal</label>
+        <input type="radio"required name="personal">
+        <label for="">company</label>
+        <hr>
+        <div>
+            <i class="fa-solid fa-envelope" style=" background: blue; padding: 2px; height: 25px;"></i>
+            <input type="text" name="" id="" placeholder="Email">
+        </div>
+      <br>
+        <div>
+            <i class="fa-solid fa-user" style=" background: blue;  padding: 2px; height: 25px;"></i>
+            <input type="text" placeholder="Name">
+        </div>
+        <br>
+        <div>
+            <i class="fa-solid fa-shield-halved" style=" background: blue;  padding: 2px; height: 25px;"></i>
+            <input type="text" name="" id="", placeholder="password">
+        </div>
+        <br>
+        <input type="radio" required name="personal" style="border-radius: 50%; shape-margin: 50rem;" >
+        <label for="">male</label>
+        <input type="radio"required name="personal">
+        <label for="">Female</label> <br> <br>
+        <div class="container">
+            <form action="">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                    <div style="text-align: left;">
+                        By clicking Register, you agree to the <span style="color: blue;"><u>terms and conditions</u></span>
+                    </div>
+
+                    <div style="text-align: right;">
+                        <button style="background: blue; color: white; border-radius: 10px; padding: 10px 20px; cursor: pointer; padding-right: 30%;">
+                            Register
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+       
+    </form>
+   </div> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<form>
+    <label for="username"><i class="fas fa-user"></i></label>
+    <input type="text" id="username" name="username" placeholder="Username">
+    
+    <label for="password"><i class="fas fa-lock"></i></label>
+    <input type="password" id="password" name="password" placeholder="Password">
+    
+    <button type="submit"><i class="fas fa-sign-in-alt"></i> Login</button>
+</form> -->
