@@ -54,7 +54,7 @@ background-color: rgb(21, 18, 18);
     z-index: 2;
     font-weight: bold;
 }
-.button1 :hover
+.button1:hover
 {
     background-color: black;
 }
@@ -64,6 +64,10 @@ background-color: rgb(21, 18, 18);
     width: 100%;
     position: absolute;
     top: 250px;
+}
+.div2 .button2:hover 
+{
+    background-color: yellow;
 }
 .head11
 {
